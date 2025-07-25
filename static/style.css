@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Luckiest Guy', cursive;
+  overflow: hidden;
+}
+
+.loading-screen {
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  position: relative;
+}
+
+.race-track {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.dog {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 240px;
+}
+
+.trophy {
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  width: 80px;
+}
+
+/* Barra de progreso */
+.progress-container {
+  position: relative;
+  width: 80%;
+  height: 25px;
+  margin: 0 auto 20px;
+  background: #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(90deg, #ff6600, #ffcc00);
+  border-radius: 12px;
+  transition: width 0.2s;
+}
+
+#progress-text {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 25px;
+}
+
+/* Botón estilo marrón con texto amarillo */
+button {
+  padding: 15px 40px;
+  font-size: 1.8rem;
+  color: #ffeb3b;
+  background: #5a3312;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px #000;
+  font-family: 'Luckiest Guy', cursive;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button.hidden {
+  display: none;
+}
+/*
+*
+*/
+

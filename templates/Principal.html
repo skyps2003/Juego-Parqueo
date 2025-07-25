@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ecuaparking</title>
+  <link rel="stylesheet" href="../static/game.css" />
+</head>
+<body>
+  <div id="game-container">
+    <h1>MATH PARKING </h1>
+    <div id="instruction">
+      USE LAS FLECHAS O LOS BOTONES (PANTALLAS TÁCTILES) PARA CONDUCIR EL AUTO
+    </div>
+
+    <div class="parking-lines">
+      <div class="lot-line" style="left: 59%;"></div>
+      <div class="lot-line" style="left: 64%;"></div>
+      <div class="lot-line" style="left: 69%;"></div>
+      <div class="lot-line" style="left: 74%;"></div>
+      <div class="lot-line" style="left: 79%;"></div>
+      <div class="lot-line" style="left: 84%;"></div>
+    </div>
+
+    <img src="../static/images/Carros/carro celeste.webp" class="car" style="top: 25%; left: 55%;" />
+    <img src="../static/images/Carros/carro verde.png" class="car" style="top: 25%; left: 60%;" />
+    <img src="../static/images/Carros/carror rojo.webp" class="car" style="top: 25%; left: 65%;" />
+    <img src="../static/images/Carros/carro morado.png" class="car" style="top: 40%; left: 65%;" />
+    <img src="../static/images/Carros/carro azul.webp" class="car" style="top: 40%; left: 70%;" />
+    <img src="../static/images/Carros/carro verde.png" class="car" style="top: 40%; left: 75%;" />
+
+    <img id="main-car" class="car" src="../static/images/Carros/carro rosa.webp" />
+
+    <div id="controls">
+      <button class="btn" id="music-btn"><img src="../static/images/icons/music.png" alt="Music"></button>
+      <button class="btn" id="mute-btn"><img src="../static/images/icons/mute.png" alt="Mute"></button>
+      <button class="btn" id="play-btn"><img src="../static/images/icons/play.png" alt="Play"></button>
+    </div>
+  </div>
+  <script src="../static/scripts/game.js"></script>
+</body>
+</html>
